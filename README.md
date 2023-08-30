@@ -61,6 +61,13 @@ docker-compose up
 
 ## Target list
 
+### *SDM845*
+
+| Device             | Target name            | DSDT Support    | Maintainers                                        |
+|--------------------|------------------------|-----------------|----------------------------------------------------|
+| HDK 845            | qcom-hdk845            | ✅              | NONE                                               |
+| Xiaomi Mix 2s      | xiaomi-polaris         | ❌              | NONE                                               |
+
 ### *SM8150*
 
 | Device             | Target name            | DSDT Support    | Maintainers                                        |
@@ -82,7 +89,7 @@ docker-compose up
 | Nubia Mini 5G      | nubia-tp1803           | ✅              | [Alula](https://github.com/alula)                  |
 | OnePlus 7          | oneplus-guacamoleb     | ❌              | NONE                                               |
 | OnePlus 7 Pro      | oneplus-guacamole      | ✅              | [Waseem Alkurdi](https://github.com/WaseemAlkurdi) |
-| OnePlus 7T Pro     | oneplus-hotdog         | ✅              | [sunflower2333](https://github.com/sunflower2333)&[Morc](https://github.com/TheMorc)|
+| OnePlus 7T Pro     | oneplus-hotdog         | ✅              | [Morc](https://github.com/TheMorc)                 |
 | OnePlus 7T Pro 5G  | oneplus-hotdogg        | ✅              | NONE                                               |
 | OPPO Reno 10X      | oppo-op46c3            | ❌              | NONE                                               |
 | OPPO Reno ACE      | oppo-pclm10            | ✅              | [sunflower2333](https://github.com/sunflower2333)  |
@@ -92,8 +99,8 @@ docker-compose up
 | Smartisan Pro 3    | smartisan-aries        | ❌              | NONE                                               |
 | Xiaomi 9           | xiaomi-cepheus         | ✅              | [qaz6750](https://github.com/qaz6750)              |
 | Xiaomi Hercules    | xiaomi-hercules        | ✅              | [Ww](https://github.com/Idonotkno)                 |
-| Xiaomi K20 Pro     | xiaomi-raphael         | ✅              | [sunflower2333](https://github.com/sunflower2333)  |
-| Xiaomi Mix3 5G     | xiaomi-andromeda       | ✅              | [sunflower2333](https://github.com/sunflower2333)  |
+| Xiaomi K20 Pro     | xiaomi-raphael         | ✅              | sunflower2333                                      |
+| Xiaomi Mix3 5G     | xiaomi-andromeda       | ✅              | sunflower2333                                      |
 | Xiaomi Mix Alpha u2| xiaomi-avenger         | ❌              | NONE                                               |
 | Xiaomi Pad 5       | xiaomi-nabu            | ✅              | [Map220v](https://github.com/map220v)              |
 | Xiaomi Poco X3 Pro | xiaomi-vayu            | ✅              | [Degdag](https://github.com/degdag)                |
@@ -112,7 +119,7 @@ docker-compose up
 
 | Device             | Target name            | DSDT Support    | Maintainers                                        |
 |--------------------|------------------------|-----------------|----------------------------------------------------|
-| QTI QRD 778        | qcom-kodiak            | ✅              | Ayu                                                |
+| QTI QRD 778        | qcom-kodiak            | ✅              | [Ayu](https://github.com/chenyu0329)&sunflower2333 |
 
 
 ### *SM8350*
@@ -124,11 +131,13 @@ docker-compose up
 
 
 ### *SM8550*
-> Comming soon...  
 
-| Device             | Target name            | Support         | Maintainers                                        |
-|--------------------|------------------------|-----------------|----------------------------------------------------|
-| Nubia RedMagic 8Pro| nubia-nx729j           | ❌              | BigfootACA                                         |
+| Device                | Target name            | DSDT Support    | Maintainers                                        |
+|-----------------------|------------------------|-----------------|----------------------------------------------------|
+| QTI QRD 8550          | qcom-kailua            | ❌              | Sunflower2333                                      |
+| Nubia RedMagic 8 Pro  | nubia-nx729j           | ❌              | BigfootACA                                         |
+| Xiaomi 13             | xiaomi-fuxi            | ❌              | None                                               |
+| Xiaomi 13 Pro         | xiaomi-nuwa            | ❌              | None                                               |
 
 ## Acknowledgements
 
